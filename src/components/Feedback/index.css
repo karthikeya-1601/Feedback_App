@@ -1,0 +1,56 @@
+/* Write your CSS code here. */
+.main-cont {
+  background: linear-gradient(to right, #ffffff, #ffc0bb);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  height: 60px;
+  width: 60px;
+}
+
+.sub-cont1 {
+  height: 50vh;
+  width: 60vw;
+  background-color: #ffffff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5px;
+}
+
+.emoji-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+li{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.sub-cont2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  height: 50vh;
+  width: 60vw;
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+}
